@@ -7,7 +7,7 @@
 #	pgrep redshift &> /dev/null || redshift &> /dev/null &
 
 # Differents DE/WM uncomment your choosen one !
-	exec i3
+#	exec i3
 #	exec startxfce
 #	exec gnome-session
 #	exec startxfce4
@@ -31,6 +31,7 @@
 
 xbindkeys -p
 
+#Usefull settings for IBM/Lenovo ThinkPad or Dell Latitudes with trackpoint
 tpset() { xinput set-prop "TPPS/2 IBM TrackPoint" "$@"; }
 
 tpset "Evdev Wheel Emulation" 1
