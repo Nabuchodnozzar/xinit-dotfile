@@ -1,4 +1,4 @@
-# Deant's xinitrc config file
+# Nabuchodnozzar's xinitrc config file
 
 # Usefull settings when X Server is running
 	setxkbmap -option terminate:ctrl_alt_bksp
